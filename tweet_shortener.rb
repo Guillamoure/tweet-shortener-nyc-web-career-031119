@@ -50,5 +50,7 @@ end
 def selective_tweet_shortener(tweet)
   if tweet[140] != NIL
     word_substituter(tweet)
+  else
+    return tweet
   end
 end
