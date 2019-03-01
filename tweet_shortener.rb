@@ -47,7 +47,7 @@ def bulk_tweet_shortener(bulk_tweets)
   end
 end
 
-def selective_tweet_shortener(long_tweets)
+def selective_tweet_shortener(bulk_tweets)
   if long_tweets[140] != NIL
     bulk_tweet_shortener(long_tweets)
   end
