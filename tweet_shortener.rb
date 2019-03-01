@@ -23,7 +23,7 @@ def word_substituter(tweet)
     
     if dictionary.keys.include?(word)
       binding.pry
-      array_tweet[array_tweet.index(i)] = dictionary[word]
+      array_tweet[i] = dictionary[word]
     end
     i+=1
   end
