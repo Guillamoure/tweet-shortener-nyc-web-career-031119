@@ -19,5 +19,6 @@ def word_substituter(tweet)
   array_tweet.each do |word|
     binding.pry
     if word == dictionary.keys
+    end
   end
 end
