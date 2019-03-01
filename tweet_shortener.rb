@@ -54,3 +54,8 @@ def selective_tweet_shortener(tweet)
     return tweet
   end
 end
+
+def shortened_tweet_truncator(tweet)
+  selective_tweet_shortener(tweet)
+  binding.pry
+end
