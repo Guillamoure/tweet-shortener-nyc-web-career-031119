@@ -22,6 +22,7 @@ def word_substituter(tweet)
   array_tweet.each do |word|
     
     if dictionary.keys.include?(word)
+      binding.pry
       array_tweet[array_tweet.index(i)] = dictionary[word]
     end
     i+=1
