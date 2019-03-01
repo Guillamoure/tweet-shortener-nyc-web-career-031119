@@ -20,7 +20,8 @@ def word_substituter(tweet)
   array_tweet = tweet.split
   array_tweet.each do |word|
     binding.pry
-    if word == dictionary.keys
+    if dictionary.keys.include?(word)
+      
     end
   end
 end
